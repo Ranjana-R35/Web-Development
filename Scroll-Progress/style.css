@@ -72,3 +72,31 @@ pre {
   margin-top: 60px;
   font-style: italic;
 }
+
+
+@media screen and (max-width: 768px) {
+  .content {
+    max-width: 100%;
+    padding: 60px 16px;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  pre {
+    font-size: 0.8rem;
+    overflow-x: auto;
+    white-space: pre-wrap;
+  }
+
+  .badge {
+    bottom: 15px;
+    right: 15px;
+    padding: 6px 12px;
+    font-size: 0.75rem;
+  }
+}
