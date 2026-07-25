@@ -39,6 +39,9 @@ a:hover{
 }
 
 @media (max-width:600px){
+body{
+    padding: 12px;
+    }
 img{
     max-width: 300px;
 }
