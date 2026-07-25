@@ -40,7 +40,7 @@ a:hover{
 
 @media (max-width:600px){
 body{
-    padding: 12px;
+    padding: 0 18px;
     }
 img{
     max-width: 300px;
