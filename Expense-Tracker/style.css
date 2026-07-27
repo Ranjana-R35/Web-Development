@@ -180,6 +180,24 @@ button[type="submit"]:active {
   padding-right: 8px;
   /* flex-grow: 1; */
 }
+
+#transaction-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+#transaction-list::-webkit-scrollbar-track {
+  /* track is the bg of the scrollbar */
+  background-color: #a0aec0; 
+  border-radius: 4px;
+}
+#transaction-list::-webkit-scrollbar-thumb {
+  /* thumb is the draggble part of the scrollbar */
+  background-color:#059669;
+  border-radius: 4px;
+}
+#transaction-list::-webkit-scrollbar-thumb:hover {
+  background-color: #1ab684;
+}
 .transaction {
   display: flex;
   justify-content: space-between;
