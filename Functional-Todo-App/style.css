@@ -246,3 +246,9 @@ footer {
 #clear-completed:hover {
   color: var(--danger);
 }
+
+@media (max-width:350px){
+  .todo-input input {
+   padding:0px 4px; 
+  }
+}
