@@ -78,8 +78,8 @@ header p {
 .todo-input button {
   background-color: var(--primary);
   color: white;
-  width: 40px;
-  height: 40px;
+  width: 4em;
+  height: 3.4em;
   border: none;
   border-radius: 6px;
   cursor: pointer;
