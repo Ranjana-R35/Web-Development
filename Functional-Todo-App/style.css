@@ -251,4 +251,7 @@ footer {
   .todo-input input {
    padding:0px 4px; 
   }
+  .todo-input {
+  padding: 10px;
+}
 }
